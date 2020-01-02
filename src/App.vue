@@ -34,7 +34,7 @@
      <v-spacer></v-spacer>
      <v-tab>STORE</v-tab>
      <v-spacer></v-spacer>
-     <v-tab>Q&A일까수정일까??</v-tab>
+     <v-tab>Q&A일까수정222일까??</v-tab>
      <v-spacer></v-spacer>
      <v-tab>HELP</v-tab>
      <v-spacer></v-spacer>
