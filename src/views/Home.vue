@@ -1,18 +1,31 @@
 <template>
-  <div class="home">
-    <img alt="Vue logo" src="../assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
-  </div>
+  <v-carousel cycle hide-delimiters show-arrows>
+    <v-carousel-item
+      v-for="(item,i) in items"
+      :key="i"
+      :src="item.src"
+    >
+    <v-layout align-center>
+    <v-flex><div>{{ item.text }}</div></v-flex>
+    </v-layout>
+    </v-carousel-item>
+  </v-carousel>
 </template>
-
 <script>
-// @ is an alias to /src
-import HelloWorld from '@/components/HelloWorld.vue'
-
 export default {
-  name: 'home',
-  components: {
-    HelloWorld
+  data () {
+    return {
+      items: [
+        {
+          src: 'https://ifh.cc/g/olWeL.jpg',
+          text: 'gdgd'
+        },
+        {
+          src: 'https://ifh.cc/g/3QMao.jpg',
+          text: 'gdasdd'
+        }
+      ]
+    }
   }
 }
 </script>
