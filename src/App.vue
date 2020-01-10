@@ -20,7 +20,7 @@
       <v-tabs-slider color="yellow"></v-tabs-slider>
       <v-tab v-for="bar in title" :key="bar.title" :to="bar.to">{{ bar.titleName }}</v-tab>
   </v-tabs>
-  </v-toolbar>ss
+  </v-toolbar>sssdogkfjasdgljasg
   <router-view></router-view>
   </v-card>
 </template>
