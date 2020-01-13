@@ -2,6 +2,8 @@
   <v-card flat>
     <v-toolbar height="100" style="border-bottom: 1px solid #E3DFDE" flat>
     <v-spacer></v-spacer>
+    <v-spacer></v-spacer>
+    <v-spacer></v-spacer>
     <div style="color:orange; cursor:pointer">LOGIN</div>
     <v-spacer></v-spacer>
     <v-spacer></v-spacer>
@@ -14,11 +16,16 @@
     <v-spacer></v-spacer>
     <div>JOIN</div>
     <v-spacer></v-spacer>
+    <v-spacer></v-spacer>
+    <v-spacer></v-spacer>
   </v-toolbar>
   <v-toolbar flat style="border-bottom: 10px solid #E3DFDE" height="50">
     <v-tabs grow centered>
-      <v-tabs-slider color="yellow"></v-tabs-slider>
+      <v-spacer></v-spacer>
+      <v-spacer></v-spacer>
       <v-tab v-for="bar in title" :key="bar.title" :to="bar.to">{{ bar.titleName }}</v-tab>
+      <v-spacer></v-spacer>
+      <v-spacer></v-spacer>
   </v-tabs>
   </v-toolbar>
   <router-view></router-view>
@@ -34,7 +41,8 @@ export default {
           to: '/event'
         },
         {
-          titleName: 'STORE'
+          titleName: 'STORE',
+          to: '/a'
         },
         {
           titleName: 'EDUCATION'
@@ -47,7 +55,8 @@ export default {
           titleName: 'Q&A'
         },
         {
-          titleName: 'ABOUT'
+          titleName: 'ABOUT',
+          to: '/about'
         }
       ]
     }
