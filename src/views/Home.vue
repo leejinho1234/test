@@ -20,31 +20,29 @@
     ></v-img>
     <v-spacer></v-spacer>
   </v-toolbar>
-    <v-row justify="space-around" style="postion:absolute">
-      <v-spacer></v-spacer>
-      <v-col col="1" style="position:auto">
-        <v-img xs6 src="https://ifh.cc/g/O6Dtq.jpg"
-        max-height="900"
-        max-width="700"
-        style="cursor:pointer"
+  <v-container>
+    <v-row centered>
+      <!-- <v-col offset-md="2" xs12 sm6 md6 lg3 xl3 cols="2">
+          <v-img xs6 src="https://ifh.cc/g/O6Dtq.jpg"
+              max-width="800"
+              min-width="500"
+              style="cursor:pointer"
         ></v-img>
       </v-col>
-      <v-col col="2" style="position:auto">
-        <v-img src="https://ifh.cc/g/6f4s0.gif"
-        max-height="250"
+      <v-col offset-md="2" xs12 sm6 md6 lg3 xl3 cols="6">
+          <v-img src="https://ifh.cc/g/6f4s0.gif"
+              max-width="320"
+              min-width="320"
+              style="cursor:pointer;"
+        ></v-img><br>
+        <v-img src="https://ifh.cc/g/KoVIs.jpg"
         max-width="320"
+        min-width="320"
         style="cursor:pointer;"
         ></v-img>
-        <br>
-        <img src="https://ifh.cc/g/KoVIs.jpg"
-        max-height="250"
-        max-width="320"
-        style="cursor:pointer; position: absolute; height:210px; width:320px;"
-        >
-      </v-col>
-      <v-spacer></v-spacer>
+      </v-col> -->
     </v-row>
-    <div style="position: absolute; top:1300px; left:0px; border : 0.5px solid black; width: 100%; height:1px; z-index: 1"></div>
+  </v-container>
 </v-card>
 </template>
 <script>
@@ -53,10 +51,12 @@ export default {
     return {
       items: [
         {
-          src: 'https://ifh.cc/g/olWeL.jpg'
+          src: 'https://ifh.cc/g/olWeL.jpg',
+          text: 'gdgd'
         },
         {
-          src: 'https://ifh.cc/g/3QMao.jpg'
+          src: 'https://ifh.cc/g/3QMao.jpg',
+          text: 'gdasdd'
         }
       ]
     }
