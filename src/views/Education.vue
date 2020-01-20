@@ -1,6 +1,7 @@
 <template>
   <v-container fluid="true" style="padding:0px">
-    <v-img src="https://ifh.cc/g/BS5mM.jpg"></v-img>
+    <v-img src="https://ifh.cc/g/BS5mM.jpg"
+          max-height="400" min-height="400"></v-img>
     <v-spacer></v-spacer>
     <v-tabs grow centered id="tabs">
       <v-tab id="tab" v-for="tabs in tab" :key="tabs.title" :to="tabs.to">{{ tabs.title }}</v-tab>
@@ -9,7 +10,6 @@
   </v-container>
 </template>
 <script>
-
 export default {
   data () {
     return {
@@ -37,5 +37,4 @@ export default {
   color: black;
   border-right: 0.5px solid gray;
 }
-
 </style>
