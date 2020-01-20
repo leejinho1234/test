@@ -1,5 +1,5 @@
 <template>
-  <v-container fluid grid-list-md style="padding:0px">
+  <v-container fluid style="padding:0px">
     <v-layout frow wrap>
       <v-flex>
         <v-img src="https://ifh.cc/g/BS5mM.jpg" max-height="400" min-height="400">

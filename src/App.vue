@@ -47,7 +47,7 @@
           class="mx-4 white--text"
           icon
         >
-          <v-icon size="24px">{{ icon }}</v-icon>
+          <v-icon size  ="24px">{{ icon }}</v-icon>
         </v-btn>
       </v-card-text>
 
@@ -79,7 +79,8 @@ export default {
           to: '/a'
         },
         {
-          titleName: 'EDUCATION'
+          titleName: 'EDUCATION',
+          to: '/education'
         },
         {
           titleName: 'HELP',
