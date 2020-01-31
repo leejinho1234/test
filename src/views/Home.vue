@@ -25,7 +25,6 @@
     </v-row>
   </v-container>
 </v-card>
-<!--ㅎㅇㅎㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇ-->
 </template>
 <script>
 export default {
