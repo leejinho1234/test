@@ -11,7 +11,6 @@
     </v-carousel-item>
   </v-carousel>
 </template>
-<!--jfjfjfie-->
 <script>
 export default {
   data () {
