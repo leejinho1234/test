@@ -22,25 +22,6 @@
   </v-toolbar>
   <v-container>
     <v-row centered>
-      <!-- <v-col offset-md="2" xs12 sm6 md6 lg3 xl3 cols="2">
-          <v-img xs6 src="https://ifh.cc/g/O6Dtq.jpg"
-              max-width="800"
-              min-width="500"
-              style="cursor:pointer"
-        ></v-img>
-      </v-col>
-      <v-col offset-md="2" xs12 sm6 md6 lg3 xl3 cols="6">
-          <v-img src="https://ifh.cc/g/6f4s0.gif"
-              max-width="320"
-              min-width="320"
-              style="cursor:pointer;"
-        ></v-img><br>
-        <v-img src="https://ifh.cc/g/KoVIs.jpg"
-        max-width="320"
-        min-width="320"
-        style="cursor:pointer;"
-        ></v-img>
-      </v-col> -->
     </v-row>
   </v-container>
 </v-card>
