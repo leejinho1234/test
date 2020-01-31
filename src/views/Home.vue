@@ -10,7 +10,7 @@
     </v-layout>
     </v-carousel-item>
   </v-carousel>
-  <!--아 개빡치네-->
+  <!--아 개빡치네 ㅋㅋㅋ-->
 </template>
 
 <script>
