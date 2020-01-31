@@ -25,7 +25,6 @@
     </v-row>
   </v-container>
 </v-card>
-<!--dasdas-->
 </template>
 <script>
 export default {
