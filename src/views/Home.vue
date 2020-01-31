@@ -26,7 +26,6 @@
   </v-container>
 </v-card>
 </template>
-<!--jfjfjfie-->
 <script>
 export default {
   data () {
