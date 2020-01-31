@@ -10,8 +10,9 @@
     </v-layout>
     </v-carousel-item>
   </v-carousel>
+  <!--아 개빡치네-->
 </template>
-<!--아 개빡치네-->
+
 <script>
 export default {
   data () {
